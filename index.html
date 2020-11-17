@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jacob Carlberg</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Jacob Carlberg.</h1>
+        <h2>Front-end Developer</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.linkedin.com/in/jacob-carlberg-048685195/" target="_blank"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://github.com/DLN1" target="_blank"><i class="fab fa-github"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>portfolio.</h1>
+        <section>
+            
+
+            
+                
+          
+                <div class="row">
+                  <div class="col-12">
+                  <div class="card">
+                    <img src="project4.png" class="card-img-top" alt="website">
+                    <div class="card-body">
+                      <h3 class="card-title text-center" style="color: black;">Rest Countries</h3>
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="https://rest-countriess-6lsrlmn18.vercel.app/" style="color: black;" target="_blank" class="card-link">Visit Website</a>
+                      <a href="https://github.com/DLN1/myWebsite" style="color: black;" target="_blank" class="card-link">Source Code <i class="fa fa-github mr-2" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-12 col-md-6"> 
+                  <div class="card">
+                    <img src="project1.png" class="card-img-top" alt="website">
+                    <div class="card-body">
+                      <h3 class="card-title text-center" style="color: black;">Clipboard Landing Page</h3>
+                      
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="https://project-tracking-ten.vercel.app/" style="color: black;" target="_blank" class="card-link">Visit Website</a>
+                      <a href="https://github.com/DLN1/projectTracking" style="color: black;" target="_blank" class="card-link">Source Code <i class="fa fa-github mr-2" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-12 col-md-6">
+                  <div class="card">
+                    <img src="project2.png" class="card-img-top" alt="website">
+                    <div class="card-body">
+                      <h3 class="card-title text-center" style="color: black;">Project tracking</h3>
+                      
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="https://www.frontendmentor.io/solutions/intro-component-using-bootstrap-PIsvHR4Nn/preview" target="_blank" style="color: black;" class="card-link">Visit Website</a>
+                      <a href="https://github.com/DLN1/huddle-landing" class="card-link" style="color: black;" target="_blank">Source Code <i class="fa fa-github mr-2" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+               
+
+
+
+
+
+
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Bootstrap</div>
+            </div>
+            
+        </section>
+    </div>
+
+
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    My name is Jacob and i am a front-end developer based in Lysekil, Sweden. I have a firm knowledge of HTML, CSS and JavaScript language and possess a good knowledge of different frameworks and tools that are used in today's technology. 
+                    On a personal level i am highly motivated, result oriented, self-driven, hard-working, fast learner and constantly looking to improve my skills and keep up to date with the latest tools.
+               
+                </p>
+                    While programming is one of my greatest passions, i also enjoy Gaming, Piano and occasionally some Chess
+                <p>
+
+                </p>
+                
+            </section>
+            <section>
+                <h2>skills</h2>
+                <p>
+                    The main area of my expertise is front end development (client side of the web).
+                </p>
+                
+                    <div id="used">
+                        <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Bootstrap</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;jQuery</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Git</div>
+                    </div>
+                    
+                
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form class="form-group" action="https://formspree.io/f/xpzodpzo" method="POST">
+                        <input name="name" type="text" placeholder="name" id="name" required>
+                        <input name="_replyto" type="email" placeholder="email" id="email" required><br>
+                        <textarea placeholder="your message" name="message" id="message" ></textarea><br>
+                        <button class="btn_one" type="submit" value="Send">send</button>
+                    </form> 
+                </p>
+            </section>
+            
+            <div id="status" class="success" style="width: 100; height: 100%; display: none;">
+                <h2>Success! Your message was Sent Successfully.</h2>
+            </div>
+        </div>
+
+        
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
